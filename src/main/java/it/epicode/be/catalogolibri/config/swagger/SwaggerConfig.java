@@ -1,4 +1,4 @@
-package it.epicode.be.catalogolibri.congig.swagger;
+package it.epicode.be.catalogolibri.config.swagger;
 
 import org.springframework.context.annotation.Configuration;
 
