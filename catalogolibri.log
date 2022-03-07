@@ -1,0 +1,65 @@
+"2022-03-08 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [restartedMain] INFO  i.e.b.c.CatalogoLibriApplication - Starting CatalogoLibriApplication using Java 11.0.13 on LAPTOP-M0FDL2VH with PID 27504 (C:\Java\workspace\catalogoLibri\target\classes started by Michele in C:\Java\workspace\catalogoLibri)
+""2022-03-08 [restartedMain] DEBUG i.e.b.c.CatalogoLibriApplication - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [restartedMain] INFO  i.e.b.c.CatalogoLibriApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.
+""2022-03-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-03-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 591 ms
+""2022-03-08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-03-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-03-08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2022-03-08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [restartedMain] DEBUG i.e.b.c.u.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+""2022-03-08 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-03-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-03-08 [restartedMain] INFO  i.e.b.c.CatalogoLibriApplication - Started CatalogoLibriApplication in 1.634 seconds (JVM running for 126.552)
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.ApplicationStartupRunner - Libro salvato: Libro(id=1, titolo=Il talismano, annoDiPubblicazione=1984, prezzo=29.5, autori=[Autore(id=3, nome=Stephen, cognome=King), Autore(id=4, nome=Peter, cognome=Straub)], categorie=[Categoria(id=2, nome=romanzo giallo), Categoria(id=3, nome=thriller)])
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.ApplicationStartupRunner - Libro salvato: Libro(id=2, titolo=Macaroni, annoDiPubblicazione=1990, prezzo=29.5, autori=[Autore(id=1, nome=Loriano, cognome=Macchiavelli), Autore(id=2, nome=Francesco, cognome=Guccini)], categorie=[Categoria(id=1, nome=horror), Categoria(id=3, nome=thriller)])
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.s.AddUserSpringRunner - User 1 : User(id=3, userName=admin, password=$2a$10$TsMjMLglZQd4GHnih0.HiOtHXdjFvJd/dZdKvouMkvIcusca.1wEK, email=admin@domain.com, isActive=true, roles=[Role(id=1, roleName=ROLE_ADMIN)])
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.s.AddUserSpringRunner - User 1 : User(id=4, userName=user, password=$2a$10$ApragFVaNoGhsGfJTq1Oeuryrzx6Z86WBBC4pq7.fMTjxO2OadI1e, email=user@domain.com, isActive=true, roles=[Role(id=2, roleName=ROLE_USER)])
+""2022-03-08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-03-08 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-03-08 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-03-08 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-03-08 [restartedMain] INFO  i.e.b.c.CatalogoLibriApplication - Starting CatalogoLibriApplication using Java 11.0.13 on LAPTOP-M0FDL2VH with PID 11600 (C:\Java\workspace\catalogoLibri\target\classes started by Michele in C:\Java\workspace\catalogoLibri)
+""2022-03-08 [restartedMain] DEBUG i.e.b.c.CatalogoLibriApplication - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [restartedMain] INFO  i.e.b.c.CatalogoLibriApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+""2022-03-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-03-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1604 ms
+""2022-03-08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2022-03-08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [restartedMain] DEBUG i.e.b.c.u.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+""2022-03-08 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-03-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-03-08 [restartedMain] INFO  i.e.b.c.CatalogoLibriApplication - Started CatalogoLibriApplication in 5.941 seconds (JVM running for 7.046)
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.ApplicationStartupRunner - Libro salvato: Libro(id=1, titolo=Il talismano, annoDiPubblicazione=1984, prezzo=29.5, autori=[Autore(id=3, nome=Stephen, cognome=King), Autore(id=4, nome=Peter, cognome=Straub)], categorie=[Categoria(id=2, nome=romanzo giallo), Categoria(id=3, nome=thriller)])
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.ApplicationStartupRunner - Libro salvato: Libro(id=2, titolo=Macaroni, annoDiPubblicazione=1990, prezzo=29.5, autori=[Autore(id=1, nome=Loriano, cognome=Macchiavelli), Autore(id=2, nome=Francesco, cognome=Guccini)], categorie=[Categoria(id=1, nome=horror), Categoria(id=3, nome=thriller)])
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.s.AddUserSpringRunner - User 1 : User(id=3, userName=admin, password=$2a$10$1ulbOU8mPekQ7Dd/FmPPzeWQtg5ta4L6zG1FDPzrglnCb8RqZUf0O, email=admin@domain.com, isActive=true, roles=[Role(id=1, roleName=ROLE_ADMIN)])
+""2022-03-08 [restartedMain] INFO  i.e.b.c.u.s.AddUserSpringRunner - User 1 : User(id=4, userName=user, password=$2a$10$bW0Cpg9LK/GOTZ87FFUSfuwvFN5tjY6U/3/Wh.sWC1RQNZRTbF3V2, email=user@domain.com, isActive=true, roles=[Role(id=2, roleName=ROLE_USER)])
+"
