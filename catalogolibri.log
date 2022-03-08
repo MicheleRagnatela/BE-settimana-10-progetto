@@ -92,4 +92,8 @@
 ""2022-03-08 [restartedMain] INFO  i.e.b.c.u.s.AddUserSpringRunner - User 1 : User(id=3, userName=admin, password=$2a$10$nTLxQ.57jzv15RhX/wVQ5erTGl0ArhXSFY8ivPNwvKG1ro8fqC4wS, email=admin@domain.com, isActive=true, roles=[Role(id=1, roleName=ROLE_ADMIN)])
 ""2022-03-08 [restartedMain] INFO  i.e.b.c.u.s.AddUserSpringRunner - User 1 : User(id=4, userName=user, password=$2a$10$Y3iMDN2qyiT68d8U4FuhyObZkDJ9MpVbO8wNn1MLNjokEuo66TNIm, email=user@domain.com, isActive=true, roles=[Role(id=2, roleName=ROLE_USER)])
 ""2022-03-08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-03-08 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-03-08 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-03-08 [RMI TCP Connection(21)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
 "
